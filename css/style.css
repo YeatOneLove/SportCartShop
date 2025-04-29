@@ -396,17 +396,17 @@
   display: none;
 }
 
-.gallery-box .col-md-4:hover i{
-display: block;
+.gallery-box .col-md-4:hover i {
+  display: block;
 }
 
-.gallery-box .col-md-4:hover img{
+.gallery-box .col-md-4:hover img {
   filter: brightness(0.5);
 }
 
 /* Niggers scrollbar */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 4px;
 }
 
@@ -415,28 +415,46 @@ display: block;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background-color: var(--deepred);
 }
 
 @media (max-width: 768px) {
   .about_text {
     flex-direction: column;
-
   }
-  .about_text_content{
+  .about_text_content {
     width: 100%;
   }
-  .video_holder{
+  .video_holder {
     flex-direction: column;
-    
   }
 
-  .video_image{
+  .video_image {
     width: 100%;
   }
 
-  .price_text{
+  .price_text {
     width: 100%;
+  }
+
+  .topbar {
+    display: none;
+  }
+
+  .carousel {
+    top: -57px;
+  }
+  .navbar-box::before {
+    display: none;
+  }
+
+  .navbar-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .navbar {
+    background-color: var(--iceMist) !important;
   }
 }
